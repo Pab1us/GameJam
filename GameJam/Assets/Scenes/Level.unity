@@ -3259,6 +3259,56 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: dac4f1aad26ae094d98e486fe01c1553, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72272eac6433e404190af80658766b51, type: 3}
+--- !u!1 &783100352
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 783100354}
+  - component: {fileID: 783100353}
+  m_Layer: 0
+  m_Name: item
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &783100353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 783100352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d695eae351795945b5dfed9b50a4a30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  litleMuk: {fileID: 21300000, guid: 9bc0b28dcc153f741863e69583208f61, type: 3}
+  indianaJons: {fileID: 0}
+  laraCroft: {fileID: 0}
+  montyHoll: {fileID: 0}
+  nostradama: {fileID: 0}
+  skill: 0
+  coin: 100
+--- !u!4 &783100354
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 783100352}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.9261818, y: 4.8609257, z: -10.452442}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &786960014
 PrefabInstance:
   m_ObjectHideFlags: 0
