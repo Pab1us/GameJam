@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    
+
     private Vector3 startPosition;
     public Camera cam;
 
@@ -15,11 +15,19 @@ public class CameraController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0)) startPosition = cam.ScreenToViewportPoint(Input.mousePosition);
-        else if (Input.GetMouseButtonDown(0))
+        //получаем позицию при старте клика
+        if (Input.GetMouseButtonDown(0))
         {
+            startPosition = cam.ScreenToViewportPoint(Input.mousePosition);
+        }
+
+        //пока держат левую кнопку мыши
+        if (Input.GetMouseButton(0))
+        {
+            //вычисляем дельту по х
             float pos = cam.ScreenToViewportPoint(Input.mousePosition).x - startPosition.x;
-            transform.position = new Vector3(Mathf.Clamp(transform.position.x - pos, -50.0f, 50.0f), transform.position.y, transform.position.z);
+            //отнимаем дельту, для инвертированного движения
+            transform.position = new Vector3(Mathf.Clamp(transform.position.x - pos, -5.0f, 0.0f), transform.position.y, transform.position.z);
         }
     }
 }

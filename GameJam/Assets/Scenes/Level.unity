@@ -1330,10 +1330,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 337946028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
+  m_Script: {fileID: 11500000, guid: 2ac0aaf01efc0a1449085c080dad8fb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 11400000, guid: ce4b299e94260404faee2cb8b32ab805, type: 2}
+  cam: {fileID: 337946031}
 --- !u!1001 &357578192
 PrefabInstance:
   m_ObjectHideFlags: 0
