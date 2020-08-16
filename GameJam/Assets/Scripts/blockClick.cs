@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
 public class blockClick : MonoBehaviour, IPointerClickHandler
@@ -16,6 +17,7 @@ public class blockClick : MonoBehaviour, IPointerClickHandler
     public GameObject[] blockPlatform8;
     public GameObject[] blockPlatform9;
     public GameObject[] blockPlatform10;
+    public Image panel;
 
     public void OnPointerClick(PointerEventData eventData)
     {
@@ -142,6 +144,15 @@ public class blockClick : MonoBehaviour, IPointerClickHandler
                 blockPlatform9[i].GetComponent<MeshCollider>().enabled = false;
             }
             Globals.count = Globals.count + 1;
+        }
+        else if (Globals.count == 10)
+        {
+            for (int i = 0; i < blockPlatform10.Length; i++)
+            {
+                blockPlatform10[i].GetComponent<ClickPlatform>().enabled = false;
+                blockPlatform10[i].GetComponent<MeshCollider>().enabled = false;
+            };
+            panel.gameObject.SetActive(true);
         }
 
     }

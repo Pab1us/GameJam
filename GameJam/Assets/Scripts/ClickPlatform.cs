@@ -11,9 +11,10 @@ public class ClickPlatform : MonoBehaviour, IPointerClickHandler
     public GameObject platform;
     public GameObject Player;
     public float time = 0.01f;
-    public Canvas gameover;
+    public Image gameover;
     public Text countCoints;
     public Image[] artifact;
+
 
     public void OnPointerClick(PointerEventData eventData)
     {
@@ -56,7 +57,7 @@ public class ClickPlatform : MonoBehaviour, IPointerClickHandler
                 {
                     Globals.coins = 0;
                     countCoints.text = Globals.coins.ToString();
-                    gameover.GetComponent<Canvas>().enabled = true;
+                    gameover.gameObject.SetActive(true);
                 }
                 
             }
@@ -77,6 +78,7 @@ public class ClickPlatform : MonoBehaviour, IPointerClickHandler
         }
    
         Debug.Log(Globals.coins);
+
         Player.GetComponent<Animator>().enabled = true;
         Player.GetComponent<Animator>().Play("playerAnim", -1, 0f);
         StartCoroutine(Wait(time));
