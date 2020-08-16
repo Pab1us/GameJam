@@ -355,9 +355,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 21622287}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &21622290
 Animator:
   serializedVersion: 3
@@ -609,9 +614,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 26273826}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &26273829
 Animator:
   serializedVersion: 3
@@ -891,7 +901,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 34090667}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -1263,9 +1273,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 64792064}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &64792067
 Animator:
   serializedVersion: 3
@@ -1527,9 +1542,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 69132837}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &69132840
 Animator:
   serializedVersion: 3
@@ -1712,9 +1732,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 69593124}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &69593127
 Animator:
   serializedVersion: 3
@@ -2141,9 +2166,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 115182234}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!114 &115182241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2600,9 +2630,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 163103433}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &163103436
 Animator:
   serializedVersion: 3
@@ -2989,9 +3024,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 172734198}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &172734201
 Animator:
   serializedVersion: 3
@@ -3262,9 +3302,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 182136986}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!114 &182136993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3782,7 +3827,12 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1918436372}
-  - {fileID: 1959426102}
+  - {fileID: 891940480}
+  - {fileID: 2059948194}
+  - {fileID: 862516811}
+  - {fileID: 2144843515}
+  - {fileID: 1542938432}
+  - {fileID: 1099585239}
   - {fileID: 574527151}
   m_Father: {fileID: 0}
   m_RootOrder: 10
@@ -3804,6 +3854,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 972fd33190a550244895c438792b4e09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coin: {fileID: 2144843516}
 --- !u!1001 &225179931
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4059,9 +4110,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 233834884}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &233834887
 Animator:
   serializedVersion: 3
@@ -4481,7 +4537,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 242527582}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -4616,9 +4672,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 256454841}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &256454844
 Animator:
   serializedVersion: 3
@@ -5596,9 +5657,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 327950652}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &327950655
 Animator:
   serializedVersion: 3
@@ -5847,9 +5913,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 331159899}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &331159902
 Animator:
   serializedVersion: 3
@@ -6490,9 +6561,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 377984611}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &377984614
 Animator:
   serializedVersion: 3
@@ -6754,9 +6830,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 381467706}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &381467709
 Animator:
   serializedVersion: 3
@@ -7158,9 +7239,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 395376233}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &395376236
 Animator:
   serializedVersion: 3
@@ -7343,9 +7429,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 396682440}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &396682443
 Animator:
   serializedVersion: 3
@@ -8323,9 +8414,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 452722922}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &452722925
 Animator:
   serializedVersion: 3
@@ -8969,7 +9065,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 503641507}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -9192,9 +9288,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 512454327}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!114 &512454334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10339,9 +10440,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 560101194}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &560101197
 Animator:
   serializedVersion: 3
@@ -10609,7 +10715,7 @@ RectTransform:
   - {fileID: 1613207133}
   - {fileID: 539455532}
   m_Father: {fileID: 221826927}
-  m_RootOrder: 2
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -10828,9 +10934,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 577187754}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &577187757
 Animator:
   serializedVersion: 3
@@ -11013,9 +11124,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 580805908}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &580805911
 Animator:
   serializedVersion: 3
@@ -12397,9 +12513,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 675422145}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &675422148
 Animator:
   serializedVersion: 3
@@ -12648,9 +12769,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 702637323}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &702637326
 Animator:
   serializedVersion: 3
@@ -12833,9 +12959,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 704926181}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &704926184
 Animator:
   serializedVersion: 3
@@ -13156,9 +13287,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 720849886}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &720849889
 Animator:
   serializedVersion: 3
@@ -14241,9 +14377,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 793724933}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &793724936
 Animator:
   serializedVersion: 3
@@ -14834,9 +14975,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 822687395}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!114 &822687402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15603,15 +15749,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 862516810}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2144843515}
-  - {fileID: 1542938432}
-  - {fileID: 1099585239}
-  m_Father: {fileID: 1959426102}
-  m_RootOrder: 2
+  m_Children: []
+  m_Father: {fileID: 221826927}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -15938,7 +16081,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 891940479}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -15946,8 +16089,8 @@ RectTransform:
   - {fileID: 503641508}
   - {fileID: 34090668}
   - {fileID: 1389753353}
-  m_Father: {fileID: 1959426102}
-  m_RootOrder: 0
+  m_Father: {fileID: 221826927}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -16128,9 +16271,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 918010785}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &918010788
 Animator:
   serializedVersion: 3
@@ -17060,9 +17208,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 968223248}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &968223251
 Animator:
   serializedVersion: 3
@@ -17377,9 +17530,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 973907837}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &973907840
 Animator:
   serializedVersion: 3
@@ -17697,9 +17855,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 991890911}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &991890914
 Animator:
   serializedVersion: 3
@@ -18030,9 +18193,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 1004876336}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &1004876339
 Animator:
   serializedVersion: 3
@@ -18790,9 +18958,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 1037123520}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &1037123523
 Animator:
   serializedVersion: 3
@@ -19390,9 +19563,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 1095147165}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &1095147168
 Animator:
   serializedVersion: 3
@@ -19574,16 +19752,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1099585238}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 862516811}
-  m_RootOrder: 2
+  m_Father: {fileID: 221826927}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 60}
+  m_AnchoredPosition: {x: 397.98, y: 73.256}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1099585240
@@ -19959,9 +20137,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 1157445452}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &1157445455
 Animator:
   serializedVersion: 3
@@ -20582,9 +20765,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 1182863060}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &1182863063
 Animator:
   serializedVersion: 3
@@ -21580,9 +21768,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 1246203707}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &1246203710
 Animator:
   serializedVersion: 3
@@ -22129,9 +22322,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 1272242429}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &1272242432
 Animator:
   serializedVersion: 3
@@ -23036,9 +23234,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 1356223020}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &1356223023
 Animator:
   serializedVersion: 3
@@ -23785,7 +23988,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1389753352}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -23841,9 +24044,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 1389805669}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &1389805672
 Animator:
   serializedVersion: 3
@@ -24087,9 +24295,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 1398914596}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &1398914599
 Animator:
   serializedVersion: 3
@@ -24613,9 +24826,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 1419885253}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &1419885256
 Animator:
   serializedVersion: 3
@@ -25135,9 +25353,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 1431346573}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!114 &1431346580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26238,9 +26461,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 1521737900}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &1521737906
 Animator:
   serializedVersion: 3
@@ -26649,16 +26877,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1542938431}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 862516811}
-  m_RootOrder: 1
+  m_Father: {fileID: 221826927}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 395, y: 9}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1542938433
@@ -27357,9 +27585,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 1600002254}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &1600002257
 Animator:
   serializedVersion: 3
@@ -27690,9 +27923,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 1608990543}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &1608990546
 Animator:
   serializedVersion: 3
@@ -27936,9 +28174,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 1610646949}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &1610646952
 Animator:
   serializedVersion: 3
@@ -29325,9 +29568,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 1711366288}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &1711366291
 Animator:
   serializedVersion: 3
@@ -29826,9 +30074,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 1729419179}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &1729419182
 Animator:
   serializedVersion: 3
@@ -31255,9 +31508,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 1813241863}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &1813241866
 Animator:
   serializedVersion: 3
@@ -31440,9 +31698,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 1814526084}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &1814526087
 Animator:
   serializedVersion: 3
@@ -32387,9 +32650,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 1847740679}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &1847740682
 Animator:
   serializedVersion: 3
@@ -32922,9 +33190,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 1873378170}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &1873378173
 Animator:
   serializedVersion: 3
@@ -33186,9 +33459,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 1881107725}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &1881107728
 Animator:
   serializedVersion: 3
@@ -34488,83 +34766,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c78d16e4711178429930c47d8e89427, type: 3}
---- !u!1 &1959426101
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1959426102}
-  - component: {fileID: 1959426104}
-  - component: {fileID: 1959426103}
-  m_Layer: 5
-  m_Name: PanelMap
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1959426102
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1959426101}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 891940480}
-  - {fileID: 2059948194}
-  - {fileID: 862516811}
-  m_Father: {fileID: 221826927}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1959426103
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1959426101}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1959426104
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1959426101}
-  m_CullTransparentMesh: 0
 --- !u!1001 &1962663722
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35294,9 +35495,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 1986434792}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &1986434795
 Animator:
   serializedVersion: 3
@@ -36184,9 +36390,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 2049242523}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &2049242526
 Animator:
   serializedVersion: 3
@@ -36368,13 +36579,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2059948193}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 545828997}
-  m_Father: {fileID: 1959426102}
-  m_RootOrder: 1
+  m_Father: {fileID: 221826927}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -36592,9 +36803,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 2082761531}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &2082761534
 Animator:
   serializedVersion: 3
@@ -37118,9 +37334,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 2092360727}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &2092360730
 Animator:
   serializedVersion: 3
@@ -37693,9 +37914,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 2128705664}
   Player: {fileID: 1437506677}
-  time: 3
+  time: 2
   gameover: {fileID: 221826926}
   countCoints: {fileID: 1030222104}
+  artifact:
+  - {fileID: 242527584}
+  - {fileID: 503641509}
+  - {fileID: 34090669}
+  - {fileID: 1389753354}
 --- !u!95 &2128705667
 Animator:
   serializedVersion: 3
@@ -38100,7 +38326,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2144843515
 RectTransform:
   m_ObjectHideFlags: 0
@@ -38112,14 +38338,14 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 862516811}
-  m_RootOrder: 0
+  m_Father: {fileID: 221826927}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -26.8, y: 113}
+  m_SizeDelta: {x: 36.449097, y: 29.48764}
+  m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &2144843516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38133,7 +38359,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -38141,8 +38367,8 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 75ab4626354c44249abe7074b2d70b7e, type: 3}
-    m_FontSize: 12
-    m_FontStyle: 0
+    m_FontSize: 23
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
@@ -38152,7 +38378,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0412\u042B\u0425\u041E\u0414"
+  m_Text: 0
 --- !u!222 &2144843517
 CanvasRenderer:
   m_ObjectHideFlags: 0

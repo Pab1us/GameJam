@@ -13,12 +13,14 @@ public class ClickPlatform : MonoBehaviour, IPointerClickHandler
     public float time = 0.01f;
     public Canvas gameover;
     public Text countCoints;
+    public Image[] artifact;
 
     public void OnPointerClick(PointerEventData eventData)
     {
         gameObject.GetComponent<ClickPlatform>().enabled = false;
         Debug.Log(Globals.mainCharacter);
         platform.GetComponent<Animator>().enabled = true;
+        countCoints.text = Globals.coins.ToString();
 
         if (gameObject.tag == "Coins")
         {
@@ -91,7 +93,27 @@ public class ClickPlatform : MonoBehaviour, IPointerClickHandler
     // Start is called before the first frame update
     void Start()
     {
-           
+        if (Globals.mainCharacter == "litleMuk")
+        {
+            for (int i = 1; i < artifact.Length; i++)
+            {
+                artifact[i].GetComponent<Image>().enabled = true;
+            }
+        }
+        if (Globals.mainCharacter == "indianaJons")
+        {
+            for (int i = 2; i < artifact.Length; i++)
+            {
+                artifact[i].GetComponent<Image>().enabled = true;
+            }
+        }
+        if (Globals.mainCharacter == "laraCroft")
+        {
+            for (int i = 3; i < artifact.Length; i++)
+            {
+                artifact[i].GetComponent<Image>().enabled = true;
+            }
+        }
     }
 
 
