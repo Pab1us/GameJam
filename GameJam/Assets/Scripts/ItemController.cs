@@ -11,34 +11,25 @@ public class ItemController : MonoBehaviour
     public Sprite montyHoll;
     public Sprite nostradama;
     private int characterCount;
-    private Sprite mainCharacter;
+  
     public int skill;
     public double coin = 100;
     // Start is called before the first frame update
     void Start()
     {
         System.Random rand = new System.Random();
-        characterCount = rand.Next(1, 1);
-        if (characterCount == 1)
+        int mode = rand.Next(1, 4);
+        if (mode == 1)
         {
-            mainCharacter = litleMuk;
-            coin = coin * 1.5;
+            Globals.mainCharacter = "litleMuk";
         }
-        if (characterCount == 2)
+        if (mode == 2)
         {
-            mainCharacter = indianaJons;
+            Globals.mainCharacter = "indianaJons";
         }
-        if (characterCount == 3)
+        if (mode == 3)
         {
-            mainCharacter = laraCroft;
-        }
-        if (characterCount == 4)
-        {
-            mainCharacter = montyHoll;
-        }
-        if (characterCount == 5)
-        {
-            mainCharacter = nostradama;
+            Globals.mainCharacter = "laraCroft";
         }
     }
 

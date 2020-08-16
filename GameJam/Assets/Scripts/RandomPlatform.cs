@@ -25,7 +25,7 @@ public class RandomPlatform : MonoBehaviour
         for (int i = platforms.Length - 1; i >= 1; i--) // Перемешиваем массив
         {
             int j = rand.Next(i + 1);
-            // обменять значения data[j] и data[i]
+            // обменять значения platforms[j] и platforms[i]
             var temp = platforms[j];
             platforms[j] = platforms[i];
             platforms[i] = temp;
