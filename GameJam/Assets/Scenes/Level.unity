@@ -23413,7 +23413,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1821969836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23421,7 +23421,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1821969835}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e72d7f149e6e984cb0d2180cfee7048, type: 3}
   m_Name: 
@@ -23451,53 +23451,106 @@ MonoBehaviour:
   - {fileID: 381467706}
   - {fileID: 327950652}
   - {fileID: 918010785}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1182863060}
+  - {fileID: 1272242429}
+  - {fileID: 1610646949}
+  - {fileID: 2049242523}
+  - {fileID: 2092360727}
+  - {fileID: 793724933}
+  - {fileID: 973907837}
+  - {fileID: 21622287}
+  - {fileID: 2128705664}
+  - {fileID: 69132837}
+  - {fileID: 1847740679}
+  - {fileID: 580805908}
+  - {fileID: 1600002254}
+  - {fileID: 1037123520}
+  - {fileID: 1881107725}
+  - {fileID: 702637323}
+  - {fileID: 968223248}
+  - {fileID: 577187754}
+  - {fileID: 1356223020}
+  - {fileID: 1419885253}
+  - {fileID: 1711366288}
+  - {fileID: 1814526084}
+  - {fileID: 1398914596}
+  - {fileID: 26273826}
+  - {fileID: 1095147165}
+  - {fileID: 331159899}
+  - {fileID: 69593124}
+  - {fileID: 1246203707}
+  - {fileID: 163103433}
+  - {fileID: 396682440}
+  - {fileID: 991890911}
+  - {fileID: 1986434792}
+  - {fileID: 64792064}
+  - {fileID: 1004876336}
+  - {fileID: 256454841}
+  - {fileID: 560101194}
+  - {fileID: 452722922}
   blockPlatform2:
   - {fileID: 1157445452}
-  blockPlatform3: []
-  blockPlatform4: []
-  blockPlatform5: []
-  blockPlatform6: []
-  blockPlatform7: []
-  blockPlatform8: []
-  blockPlatform9: []
-  blockPlatform10: []
+  - {fileID: 1729419179}
+  - {fileID: 172734198}
+  - {fileID: 2082761531}
+  - {fileID: 1389805669}
+  - {fileID: 233834884}
+  blockPlatform3:
+  - {fileID: 452722922}
+  - {fileID: 377984611}
+  - {fileID: 704926181}
+  - {fileID: 1873378170}
+  - {fileID: 1608990543}
+  - {fileID: 720849886}
+  blockPlatform4:
+  - {fileID: 675422145}
+  - {fileID: 1813241863}
+  - {fileID: 395376233}
+  - {fileID: 381467706}
+  - {fileID: 327950652}
+  - {fileID: 918010785}
+  blockPlatform5:
+  - {fileID: 1182863060}
+  - {fileID: 1272242429}
+  - {fileID: 1610646949}
+  - {fileID: 2049242523}
+  - {fileID: 2092360727}
+  - {fileID: 793724933}
+  blockPlatform6:
+  - {fileID: 973907837}
+  - {fileID: 21622287}
+  - {fileID: 2128705664}
+  - {fileID: 69132837}
+  - {fileID: 1847740679}
+  - {fileID: 580805908}
+  blockPlatform7:
+  - {fileID: 1600002254}
+  - {fileID: 1037123520}
+  - {fileID: 1881107725}
+  - {fileID: 702637323}
+  - {fileID: 968223248}
+  - {fileID: 577187754}
+  blockPlatform8:
+  - {fileID: 1356223020}
+  - {fileID: 1419885253}
+  - {fileID: 1711366288}
+  - {fileID: 1814526084}
+  - {fileID: 1398914596}
+  - {fileID: 26273826}
+  blockPlatform9:
+  - {fileID: 1095147165}
+  - {fileID: 331159899}
+  - {fileID: 69593124}
+  - {fileID: 1246203707}
+  - {fileID: 163103433}
+  - {fileID: 396682440}
+  blockPlatform10:
+  - {fileID: 991890911}
+  - {fileID: 1986434792}
+  - {fileID: 64792064}
+  - {fileID: 1004876336}
+  - {fileID: 256454841}
+  - {fileID: 560101194}
 --- !u!4 &1821969837
 Transform:
   m_ObjectHideFlags: 0
