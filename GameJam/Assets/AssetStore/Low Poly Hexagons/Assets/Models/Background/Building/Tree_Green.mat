@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Castle
+  m_Name: Tree_Green
   m_Shader: {fileID: 4800000, guid: 8e8d8092d0b441a47abc77258f1172e5, type: 3}
   m_ShaderKeywords: _ILLUMINATION_ON _RIM_ON
   m_LightmapFlags: 4
@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 68767a44130399f44b8195b011216717, type: 3}
+        m_Texture: {fileID: 2800000, guid: de253ad8694f8f741af4d23923d69863, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:

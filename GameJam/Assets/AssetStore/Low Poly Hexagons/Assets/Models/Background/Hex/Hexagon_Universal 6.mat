@@ -101,7 +101,7 @@ Material:
     - _AddLight1_Dir: {r: 1, g: 1, b: 0, a: 1}
     - _AddLight2_Color: {r: 0, g: 0, b: 0, a: 0}
     - _AddLight2_Dir: {r: 1, g: 1, b: 0, a: 1}
-    - _AmbientColor: {r: 1, g: 1, b: 1, a: 1}
+    - _AmbientColor: {r: 0.241, g: 0.241, b: 0.241, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DiffuseColor: {r: 0.936, g: 0.936, b: 0.936, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
@@ -110,7 +110,7 @@ Material:
     - _HitColorNew: {r: 0, g: 0, b: 0, a: 0}
     - _IlluminationColor: {r: 1, g: 1, b: 1, a: 1}
     - _ReflectionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _RimColor: {r: 0, g: 0.9833336, b: 1, a: 1}
+    - _RimColor: {r: 1, g: 0.98333335, b: 0, a: 1}
     - _RimOffset: {r: 0, g: 0, b: 0, a: 0}
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
