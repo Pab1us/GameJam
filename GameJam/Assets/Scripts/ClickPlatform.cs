@@ -18,7 +18,6 @@ public class ClickPlatform : MonoBehaviour, IPointerClickHandler
     {
         gameObject.GetComponent<ClickPlatform>().enabled = false;
         Debug.Log(Globals.mainCharacter);
-        Debug.Log(gameObject.name);
         platform.GetComponent<Animator>().enabled = true;
 
         if (gameObject.tag == "Coins")
@@ -79,7 +78,6 @@ public class ClickPlatform : MonoBehaviour, IPointerClickHandler
         Player.GetComponent<Animator>().enabled = true;
         Player.GetComponent<Animator>().Play("playerAnim", -1, 0f);
         StartCoroutine(Wait(time));
-        //Player.transform.position = gameObject.transform.position;
     }
 
     private IEnumerator Wait(float time)

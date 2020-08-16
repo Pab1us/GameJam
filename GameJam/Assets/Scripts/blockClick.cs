@@ -19,10 +19,7 @@ public class blockClick : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        Debug.Log("click");
         checkBlock();
-        //gameObject.GetComponent<ClickPlatform>().enabled = false;
-
     }
 
 
