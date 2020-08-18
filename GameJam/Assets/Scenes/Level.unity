@@ -363,6 +363,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &21622290
 Animator:
   serializedVersion: 3
@@ -623,6 +625,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &26273829
 Animator:
   serializedVersion: 3
@@ -1283,6 +1287,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &64792067
 Animator:
   serializedVersion: 3
@@ -1553,6 +1559,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &69132840
 Animator:
   serializedVersion: 3
@@ -1744,6 +1752,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &69593127
 Animator:
   serializedVersion: 3
@@ -2179,6 +2189,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!114 &115182241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2644,6 +2656,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &163103436
 Animator:
   serializedVersion: 3
@@ -3039,6 +3053,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &172734201
 Animator:
   serializedVersion: 3
@@ -3318,6 +3334,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!114 &182136993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3920,6 +3938,8 @@ RectTransform:
   - {fileID: 574527151}
   - {fileID: 1553579219}
   - {fileID: 1675755202}
+  - {fileID: 252637371}
+  - {fileID: 1838051432}
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4219,6 +4239,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &233834887
 Animator:
   serializedVersion: 3
@@ -4748,6 +4770,84 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c78d16e4711178429930c47d8e89427, type: 3}
+--- !u!1 &252637370
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 252637371}
+  - component: {fileID: 252637373}
+  - component: {fileID: 252637372}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &252637371
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252637370}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 221826927}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 36, y: 195.42}
+  m_SizeDelta: {x: 474.30908, y: 94.15994}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &252637372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252637370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 40
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 4
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &252637373
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252637370}
+  m_CullTransparentMesh: 0
 --- !u!1 &256454841 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1163984033840858, guid: 72272eac6433e404190af80658766b51,
@@ -4782,6 +4882,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &256454844
 Animator:
   serializedVersion: 3
@@ -5768,6 +5870,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &327950655
 Animator:
   serializedVersion: 3
@@ -6025,6 +6129,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &331159902
 Animator:
   serializedVersion: 3
@@ -6674,6 +6780,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &377984614
 Animator:
   serializedVersion: 3
@@ -6944,6 +7052,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &381467709
 Animator:
   serializedVersion: 3
@@ -7354,6 +7464,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &395376236
 Animator:
   serializedVersion: 3
@@ -7545,6 +7657,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &396682443
 Animator:
   serializedVersion: 3
@@ -8609,6 +8723,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &452722925
 Animator:
   serializedVersion: 3
@@ -9484,6 +9600,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!114 &512454334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10715,6 +10833,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &560101197
 Animator:
   serializedVersion: 3
@@ -11224,6 +11344,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &577187757
 Animator:
   serializedVersion: 3
@@ -11415,6 +11537,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &580805911
 Animator:
   serializedVersion: 3
@@ -12883,6 +13007,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &675422148
 Animator:
   serializedVersion: 3
@@ -13140,6 +13266,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &702637326
 Animator:
   serializedVersion: 3
@@ -13331,6 +13459,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &704926184
 Animator:
   serializedVersion: 3
@@ -13660,6 +13790,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &720849889
 Animator:
   serializedVersion: 3
@@ -14751,6 +14883,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &793724936
 Animator:
   serializedVersion: 3
@@ -15350,6 +15484,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!114 &822687402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16780,6 +16916,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &918010788
 Animator:
   serializedVersion: 3
@@ -17718,6 +17856,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &968223251
 Animator:
   serializedVersion: 3
@@ -18041,6 +18181,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &973907840
 Animator:
   serializedVersion: 3
@@ -18367,6 +18509,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &991890914
 Animator:
   serializedVersion: 3
@@ -18706,6 +18850,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &1004876339
 Animator:
   serializedVersion: 3
@@ -19472,6 +19618,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &1037123523
 Animator:
   serializedVersion: 3
@@ -20078,6 +20226,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &1095147168
 Animator:
   serializedVersion: 3
@@ -20653,6 +20803,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &1157445455
 Animator:
   serializedVersion: 3
@@ -21371,6 +21523,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &1182863063
 Animator:
   serializedVersion: 3
@@ -22505,6 +22659,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &1246203710
 Animator:
   serializedVersion: 3
@@ -23060,6 +23216,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &1272242432
 Animator:
   serializedVersion: 3
@@ -23973,6 +24131,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &1356223023
 Animator:
   serializedVersion: 3
@@ -24784,6 +24944,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &1389805672
 Animator:
   serializedVersion: 3
@@ -25036,6 +25198,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &1398914599
 Animator:
   serializedVersion: 3
@@ -25568,6 +25732,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &1419885256
 Animator:
   serializedVersion: 3
@@ -26096,6 +26262,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!114 &1431346580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27206,6 +27374,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &1521737906
 Animator:
   serializedVersion: 3
@@ -28409,6 +28579,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &1600002257
 Animator:
   serializedVersion: 3
@@ -28748,6 +28920,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &1608990546
 Animator:
   serializedVersion: 3
@@ -29000,6 +29174,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &1610646952
 Animator:
   serializedVersion: 3
@@ -30707,6 +30883,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &1711366291
 Animator:
   serializedVersion: 3
@@ -31214,6 +31392,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &1729419182
 Animator:
   serializedVersion: 3
@@ -32655,6 +32835,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &1813241866
 Animator:
   serializedVersion: 3
@@ -32846,6 +33028,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &1814526087
 Animator:
   serializedVersion: 3
@@ -33608,6 +33792,80 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c78d16e4711178429930c47d8e89427, type: 3}
+--- !u!1 &1838051431
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1838051432}
+  - component: {fileID: 1838051434}
+  - component: {fileID: 1838051433}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1838051432
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838051431}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 221826927}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1838051433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838051431}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1838051434
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838051431}
+  m_CullTransparentMesh: 0
 --- !u!1001 &1840629260
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33800,6 +34058,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &1847740682
 Animator:
   serializedVersion: 3
@@ -34341,6 +34601,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &1873378173
 Animator:
   serializedVersion: 3
@@ -34611,6 +34873,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &1881107728
 Animator:
   serializedVersion: 3
@@ -36727,6 +36991,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &1986434795
 Animator:
   serializedVersion: 3
@@ -37623,6 +37889,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &2049242526
 Animator:
   serializedVersion: 3
@@ -38037,6 +38305,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &2082761534
 Animator:
   serializedVersion: 3
@@ -38569,6 +38839,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &2092360730
 Animator:
   serializedVersion: 3
@@ -39228,6 +39500,8 @@ MonoBehaviour:
   - {fileID: 503641509}
   - {fileID: 34090669}
   - {fileID: 1389753354}
+  inform: {fileID: 252637372}
+  img: {fileID: 1838051433}
 --- !u!95 &2128705667
 Animator:
   serializedVersion: 3

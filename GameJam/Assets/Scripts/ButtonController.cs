@@ -10,14 +10,6 @@ public class ButtonController : MonoBehaviour
     public Text coin2;
     public Text coin3;
     public Text coin4;
-    public Sprite litleMuk;
-    public Sprite indianaJons;
-    public Sprite laraCroft;
-    public Sprite montyHoll;
-    public Sprite nostradama;
-    public Image heroes;
-    public Image panel;
-    public Text info;
     public Image panel1;
     public Image panel2;
     public Image panel3;
@@ -26,15 +18,15 @@ public class ButtonController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        panel3.gameObject.SetActive(false);
-        panel4.gameObject.SetActive(false);
-        coin.text = Globals.coins.ToString();
+        //panel3.gameObject.SetActive(false);
+        //panel4.gameObject.SetActive(false);
+        //coin.text = Globals.coins.ToString();
     }
 
     // Update is called once per frame
     void Update()
     {
-        coin.text = Globals.coins.ToString();
+       // coin.text = Globals.coins.ToString();
     }
 
     public void btnExtit()
@@ -45,10 +37,12 @@ public class ButtonController : MonoBehaviour
     {
         coin3.text = Globals.coins.ToString();
         panel3.gameObject.SetActive(true);
+        panel4.gameObject.SetActive(false);
     }
     public void btnShowOut()
     {
         coin4.text = Globals.coins.ToString();
+        panel3.gameObject.SetActive(false);
         panel4.gameObject.SetActive(true);
     }
 
@@ -56,48 +50,16 @@ public class ButtonController : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+    public void btnPlay2()
+    {
+        SceneManager.LoadScene(2);
+    }
     public void btnNext()
     {
         panel1.gameObject.SetActive(false);
         panel2.gameObject.SetActive(true);
     }
-    public void btnRandomPers()
-    {
-        panel.gameObject.SetActive(true);
-        System.Random rand = new System.Random();
-        int mode = rand.Next(1, 6);
-        if (mode == 1)
-        {
-            Globals.mainCharacter = "litleMuk";
-            heroes.GetComponent<Image>().sprite = litleMuk;
-            info.GetComponent<Text>().text = "визуально - хил и слаб, уродец-торговец найденные сокровища умножатся x1.53 слота под артифакты";
-        }
-        if (mode == 2)
-        {
-            Globals.mainCharacter = "indianaJons";
-            heroes.GetComponent<Image>().sprite = indianaJons;
-            info.GetComponent<Text>().text = "визуально - приключенец при попадании в ловушку теряет только половину сокровищ 2 слота под артифакты";
-        }
-        if (mode == 3)
-        {
-            heroes.GetComponent<Image>().sprite = laraCroft;
-            Globals.mainCharacter = "laraCroft";
-            info.GetComponent<Text>().text = "визуально - ловкая, может избежать последствий попадания в одну ловушку (с перезарядкой) 1 слот под артифакты";
-        }
-        if (mode == 4)
-        {
-            heroes.GetComponent<Image>().sprite = montyHoll;
-            Globals.mainCharacter = "montyHoll";
-            info.GetComponent<Text>().text = "визуально - ученый,если перед ним 3 клетки, может посмотреть(вскрыть) одну из них, и после этого принять решение, куда двигаться. 2 слота под артифакты";
-        }
-        if (mode == 5)
-        {
-            heroes.GetComponent<Image>().sprite = nostradama;
-            Globals.mainCharacter = "nostradama";
-            info.GetComponent<Text>().text = "визуально - предсказательница. с 25 % -й вероятностью знает, в каком блоке перед ней ловушка 1 слот для артифактов";
-        }
-
+    
    
-    }
 
 }

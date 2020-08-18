@@ -14,6 +14,8 @@ public class ClickPlatform : MonoBehaviour, IPointerClickHandler
     public Image gameover;
     public Text countCoints;
     public Image[] artifact;
+    public Text inform;
+    public Image img;
 
 
     public void OnPointerClick(PointerEventData eventData)
@@ -33,7 +35,7 @@ public class ClickPlatform : MonoBehaviour, IPointerClickHandler
             {
                 Globals.coins += 30;
             }
-            
+            inform.text = "ВЫ НАШЛИ ЗОЛОТО";
         }
         if (gameObject.tag == "Danger")
         {
@@ -61,7 +63,8 @@ public class ClickPlatform : MonoBehaviour, IPointerClickHandler
                 }
                 
             }
-            
+            inform.text = "ВЫ ПОПАЛИ В ЛОВУШКУ";
+
         }
         if (gameObject.tag == "gear")
         {
@@ -74,11 +77,15 @@ public class ClickPlatform : MonoBehaviour, IPointerClickHandler
             {
                 Globals.coins += 10;
             }
+            inform.text = "ВЫ НАШЛИ АРТЕФАКТ";
+            for (int i = 0; i < artifact.Length; i++)
+            {
+                artifact[i].GetComponent<Image>().sprite = img.sprite;
+            }
             
         }
    
         Debug.Log(Globals.coins);
-
         Player.GetComponent<Animator>().enabled = true;
         Player.GetComponent<Animator>().Play("playerAnim", -1, 0f);
         StartCoroutine(Wait(time));
