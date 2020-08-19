@@ -10,6 +10,7 @@ public class Globals : MonoBehaviour
     public static int saveCoin = 1;
     public static int count = 0;
     public static int life = 1;
+    public static int artifact = 0;
     // Start is called before the first frame update
     void Start()
     {

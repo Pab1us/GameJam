@@ -16,13 +16,13 @@ public class CameraController : MonoBehaviour
     private void Update()
     {
         //получаем позицию при старте клика
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(2))
         {
             startPosition = cam.ScreenToViewportPoint(Input.mousePosition);
         }
 
         //пока держат левую кнопку мыши
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(2))
         {
             //вычисляем дельту по х
             float pos = cam.ScreenToViewportPoint(Input.mousePosition).x - startPosition.x;

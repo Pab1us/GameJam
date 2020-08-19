@@ -16,7 +16,9 @@ public class ClickPlatform : MonoBehaviour, IPointerClickHandler
     public Image[] artifact;
     public Text inform;
     public Image img;
-
+    public Material matRed;
+    public Material matGold;
+    public Material matBlue;
 
     public void OnPointerClick(PointerEventData eventData)
     {
@@ -35,6 +37,7 @@ public class ClickPlatform : MonoBehaviour, IPointerClickHandler
             {
                 Globals.coins += 30;
             }
+            gameObject.GetComponent<MeshRenderer>().material = matGold;
             inform.text = "ВЫ НАШЛИ ЗОЛОТО";
         }
         if (gameObject.tag == "Danger")
@@ -63,11 +66,13 @@ public class ClickPlatform : MonoBehaviour, IPointerClickHandler
                 }
                 
             }
+            gameObject.GetComponent<MeshRenderer>().material = matRed;
             inform.text = "ВЫ ПОПАЛИ В ЛОВУШКУ";
 
         }
         if (gameObject.tag == "gear")
         {
+            
             if (Globals.mainCharacter == "litleMuk")
             {
                 Globals.coins += 15;
@@ -78,13 +83,12 @@ public class ClickPlatform : MonoBehaviour, IPointerClickHandler
                 Globals.coins += 10;
             }
             inform.text = "ВЫ НАШЛИ АРТЕФАКТ";
-            for (int i = 0; i < artifact.Length; i++)
-            {
-                artifact[i].GetComponent<Image>().sprite = img.sprite;
-            }
-            
+            artifact[Globals.artifact].GetComponent<Image>().sprite = img.sprite;
+  
+            gameObject.GetComponent<MeshRenderer>().material = matBlue;
+            Globals.artifact++;
         }
-   
+        countCoints.text = Globals.coins.ToString();
         Debug.Log(Globals.coins);
         Player.GetComponent<Animator>().enabled = true;
         Player.GetComponent<Animator>().Play("playerAnim", -1, 0f);
@@ -104,21 +108,35 @@ public class ClickPlatform : MonoBehaviour, IPointerClickHandler
     {
         if (Globals.mainCharacter == "litleMuk")
         {
-            for (int i = 1; i < artifact.Length; i++)
+            for (int i = 0; i < artifact.Length-1; i++)
             {
                 artifact[i].GetComponent<Image>().enabled = true;
             }
         }
         if (Globals.mainCharacter == "indianaJons")
         {
-            for (int i = 2; i < artifact.Length; i++)
+            for (int i = 0; i < artifact.Length-2; i++)
             {
                 artifact[i].GetComponent<Image>().enabled = true;
             }
         }
         if (Globals.mainCharacter == "laraCroft")
         {
-            for (int i = 3; i < artifact.Length; i++)
+            for (int i = 0; i < artifact.Length-3; i++)
+            {
+                artifact[i].GetComponent<Image>().enabled = true;
+            }
+        }
+        if (Globals.mainCharacter == "montyHoll")
+        {
+            for (int i = 0; i < artifact.Length-2; i++)
+            {
+                artifact[i].GetComponent<Image>().enabled = true;
+            }
+        }
+        if (Globals.mainCharacter == "nostradama")
+        {
+            for (int i = 0; i < artifact.Length-3; i++)
             {
                 artifact[i].GetComponent<Image>().enabled = true;
             }
